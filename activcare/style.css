@@ -411,10 +411,10 @@ button.slick-next.slick-arrow {
     display: none;
 }
 
-footer .container,
+/* footer .container,
 footer .row {
-    /* height: inherit; */
-}
+    height: inherit;
+} */
 
 footer .row > div { 
     display: inherit;
