@@ -1,0 +1,280 @@
+/* Color Pallette 
+
+Yellow - #fca311
+Gray - #e5e5e5
+White - #ffffff
+Black - #000000
+Blue - #14213d
+
+*/
+
+.container-fluid {
+	padding: 0 30px;
+} 
+
+.container {
+	padding: 50px 0;
+}
+
+nav {
+	position: relative;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.navbar {
+	position: absolute;
+	background: transparent;
+}
+
+.navbar-nav li a {
+	padding: 20px 0;
+}
+
+.nav-link {
+	color: #FFF;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+	color: #fca311;
+	text-decoration: underline;
+	text-decoration-color: #e5e5e5;
+	text-underline-offset: 3px;
+}
+
+.dropdown-item {
+	padding: 30px!important;
+}
+
+.dropdown-menu li {
+	font-size: 14px!important;
+}
+
+#branding {
+	width: 100%;
+	max-width: 150px;
+}
+
+#banner {
+	padding: 0;
+	margin: 0;
+	/*position: absolute;
+	top: 0;*/
+}
+
+.carousel {
+    position: relative;
+    height: 100vh;
+    /* top: -166px; */
+    /* left: 0; */
+}
+
+.carousel-item {
+	height: 100vh;
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position: center;
+}
+
+.carousel-caption {
+	top: 30%;
+}
+
+.banner-title {
+	max-width: 450px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.banner-button,
+.button {
+	background: #14213d;	
+	border-radius: 10px;
+	padding: 20px;
+	border: 1px solid #e5e5e5;
+	color: #FFFFFF;
+}
+
+.banner-button,
+.button {
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.button {
+	text-decoration: none;
+}
+
+.banner-button:hover,
+.button:hover {
+	color: #fca311;
+}
+
+a.banner-button {
+	text-decoration: none!important;
+	text-transform: uppercase;
+}
+
+#about-us {
+	position: relative;
+}
+
+.description {
+	margin-bottom: 50px;
+}
+
+/* Sections */
+.section-title {
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
+	text-underline-offset: 5px;
+	text-decoration-color: #fca311;
+}
+
+.pd-50 {
+	padding: 0 50px;
+}
+/* Careers Page */
+.page-title {
+	text-align: center;
+	text-decoration: underline;
+}
+ 
+section {
+	margin: 30px 0;
+}
+
+.row {
+	padding: 10px 0;
+}
+
+.card-title {
+	font-size: 24px;
+}
+
+.red {
+	background: #f2596d;
+}
+
+/* Accordion */
+.accordion {
+	background-color: #FFFFFF;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: 1px solid #eee;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+	background-color: #ccc; 
+  }
+  
+  .panel {
+	padding: 0 18px;
+	display: none;
+	background-color: white;
+	overflow: hidden;
+  }
+
+  #counters {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #fca311;
+  }
+
+  .counter {
+	text-align: center;
+	width: 280px;
+	padding: 30px;
+  }
+
+  .counter h2 {
+	color: #FFF;
+  }
+
+  .separator {
+	width: 100px;
+    background-color: #FFF;
+    height: 5px;
+    margin: 10px auto;
+  }
+
+  #our-services .carousel {
+	  position: relative;
+	  top: 0;
+  }
+
+  #contact-us {
+	background: #14213d;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-bottom: 0;
+  }
+
+  form {
+	  border: 1px solid #e5e5e5;
+	  padding: 50px;
+  }
+
+  input {
+	  width: 100%;
+	  background: transparent;
+  }
+  
+  input::placeholder {
+	  color: #FFF;
+  }
+
+  .sidebar {
+	  width: 200px;
+  }
+
+  .sidebar-title {
+	  text-decoration: underline;
+	  text-underline-offset: 5px;
+	  text-decoration-color: #fca311;
+	  text-align: center;
+  }
+
+  .sidebar-links {
+	  list-style: none;
+	  padding: 0;
+	  text-align: center;
+  }
+
+  .sidebar-links li {
+	padding: 10px 0;	  
+  }
+  
+  .sidebar-links li a {
+	  color:#000;
+	  text-decoration: none;
+	  font-size: 12px;
+  }
+
+  .sidebar-links li a:hover {
+	text-decoration: underline;
+	text-decoration-color: #fca311;
+  }
+
+  
+/* Footer */
+footer {
+	width: 100%;
+	height: 100px;	
+	position: relative;
+	bottom: 0;
+	background: #14213d;
+}
+
+.footer-title {
+	text-align: center;
+}
