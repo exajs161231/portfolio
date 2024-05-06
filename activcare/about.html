@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ActivCare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="./vendors/bootstrap-5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./vendors/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="./vendors/bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="container-fluid px-0"> 
+      <nav class="navbar navbar-expand-xl">
+        <div class="container">
+          <a class="navbar-brand" href="./">
+            <img class="nav-logo" src="./assets/images/aclogo-rgb.png" alt="ActivCare Logo" width="150">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbars">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./about.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./programs.html" id="dropdown04">Our Programs</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="#">Palliative And Hospice Care</a></li>
+                <li><a class="dropdown-item" href="#">Geriatic And Chronic Disease</a></li>
+                <li><a class="dropdown-item" href="#">COVID Home Care</a></li>
+                <li><a class="dropdown-item" href="#">Nutrition Management</a></li>
+                <li><a class="dropdown-item" href="#">Primary Care At Home</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./services.html" id="dropdown04">Our Services</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="#">Home Health Services</a></li>
+                <li><a class="dropdown-item" href="#">Virtual Health Services</a></li>
+                <li><a class="dropdown-item" href="#">Packages</a></li>
+                <li><a class="dropdown-item" href="#">COVID Packages</a></li>
+                <li><a class="dropdown-item" href="#">Other Services</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./faqs.html">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"><span class="phone-icon"></span> 0917-569-1755</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link rounded-pill btn-green inquire p-4" href="./contact.html">Inquire Now</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="banner" style="background: url('./assets/images/about-us/2\ About\ Us\ -\ 0\ Header.jpg'); background-size: cover;background-position: center;">
+        <div class="overlay"></div>
+        <h1 class="page-title">About Us</h1>
+    </section>
+    <section id="what-is-activcare" class="container-xxl my-5">
+      <div class="row align-items-md-center justify-content-between">
+        <div class="col-sm-5">
+          <h2>What is ActivCare?</h2>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item rounded-4">
+              <h2 class="accordion-header">
+                <button class="accordion-button rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  ActivCare is Home Health Care
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    We use a multi-disciplinary approach with a wide range of health care services that can be given in your patient’s home for an illness or injury. Home health care is usually less expensive, more convenient, and may be as effective as the care you get in a hospital.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item rounded-4">
+              <h2 class="accordion-header">
+                <button class="accordion-button rounded-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  ActivCare is Palliative and Hospice Care
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    We treat patients suffering from chronic and life-threatening illnesses who need continuing care at home, with special emphasis on Palliative and Hospice Care.
+                  </p>
+                  <p>
+                    We are here for those who are suffering from Cancer, Dementia, Respiratory Diseases (COPD, Pneumonia), Cardiac Disease (Congestive Heart Failure), Liver Disease, Chronic Kidney Disease (CKD), degenerative conditions and other significant deterioration related to aging.
+                  </p>
+                  <p>
+                    ActivCare provides patient and family-centered care that optimizes quality of life by anticipating, preventing, and treating suffering by addressing the physical, emotional, social and spiritual needs.
+                  </p>
+                  <p>
+                    We provide services that ensure that the end of life experience is peaceful for both the patient and the family.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item rounded-4">
+              <h2 class="accordion-header">
+                <button class="accordion-button rounded-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  ActivCare is Geriatric Care
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    We provide specialized medical care for older adults, 60 years old and above, by promoting their quality of life through nurturing healthy aging, preventing diseases, treating acute illnesses and managing disabilities. 
+                  </p>
+                  <p>
+                    Our multidisciplinary approach ensures that all medical, psychological and daily needs of our geriatric patients are addressed holistically.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item rounded-4">
+              <h2 class="accordion-header">
+                <button class="accordion-button rounded-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  ActivCare is Primary Care
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    We have different programs that cater to the health and wellness of the entire family, with focus on prevention of disease through regular health screenings, acute management of sudden illnesses, and management of chronic diseases.
+                  </p>
+                  <p>
+                    We also offer other programs, such as our <strong>COVID program</strong> that can manage and coordinate care of patients with mild to Severe disease, with our team of internists, pulmonologists, palliative specialists and nurses; and <strong>Nutrition programs</strong> that create personalized nutrition assessments, diet plans, and progress reports for patients of who suffer from malnutrition.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item rounded-4">
+              <h2 class="accordion-header">
+                <button class="accordion-button rounded-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  ActivCare is a one-stop shop
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    We deliver a variety of support to patients and families in the comfort of their homes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="what-is rounded-4">
+            <img src="./assets/images/about-us/2 About Us - 1 What is AC.jpg" alt="" width="100px">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="core-values">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="rounded-4 p-5">
+              <h2 class="text-center">Mission</h2>
+              <p class="text-center">
+                We strive to bring to our patients compassionate and excellent home care. We provide quality of life and ensure a healing environment of health, comfort, safety and peace of mind to our patients and their love ones.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="rounded-4 p-5 h-100">
+              <h2 class="text-center">Vision</h2>
+              <p class="text-center">
+                To be the leader, the most trusted and preferred home healthcare provider in the country.
+              </p>
+            </div>            
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <div class="rounded-4 p-5">
+              <h2 class="text-center">Core Values</h2>
+              <ul class="values">
+                <li>Professionalism</li>
+                <li>Integrity</li>
+                <li>Commitment</li>
+                <li>Malasakit</li>
+                <li>Excellence</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="what-do-we-do" class="container-xxl py-5">
+      <div class="row">
+        <div class="col-sm-6 px-0">
+          <div class="about-image">
+            <img src="./assets/images/about-us/2 About Us - 1 What is AC.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="rounded-4">
+            <h2 class="text-center">What do we do?</h2>
+            <div class="what-do-we-do-slider">
+              <div class="slider-container">
+                <p>We take care of our patients through round-the-clock monitoring and management provided by our team of Doctors, Nurse Case Managers, Nurses and Caregivers.</p>
+              </div>
+              <div class="slider-container">
+                <p>We can organize your home to be as efficient as your own personal hospital; fully customized depending on the needs of your patient. We’ll make your patients more comfortable, all in the convenience of your own home, surrounded by the love and care of your family. Everything starts with the Plan of Care.</p>
+              </div>
+              <div class="slider-container">
+                <p>We offer a range of services from Primary Care to Palliative Care, that can be customized based on the patient’s needs and capabilities.</p>
+              </div>
+              <div class="slider-container">
+                <p>Our care extends to the entire family as we recognize that both the patient and family members need strong support, guidance and a comforting hand in this difficult period. We partner with family members in executing the Plan of Care as we believe that, together, we can make the best decisions for the patient. When you choose ActivCare as your home healthcare partner, families will have more family time, will be relieved from unnecessary worries and stress. Patients will be left with nothing to worry about except feeling better.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="our-team" class="container-fluid py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">The ActivTeam</h2>
+            <div class="our-team-slider">
+              <div class="team-container">
+                <div class="team-slider-header text-center">Meet Our Doctors</div>
+                <ul class="doctors">
+                  <li>
+                    <div class="hexagonal">
+                      <img src="./assets/images/user.png" alt="">
+                    </div>
+                    <div class="doctors-name text-center">Dr. Agnes Bausa-Claudio, MD</div>
+                    <div class="field text-center">Family Medicine-Palliative Specialist</div>
+                  </li>
+                  <li>
+                    <div class="hexagonal">
+                      <img src="./assets/images/user.png" alt="">
+                    </div>
+                    <div class="doctors-name text-center">Dr. Rhea Pobre-Jayma, MD</div>
+                    <div class="field text-center">Family Medicine-Palliative Specialist</div>
+                  </li>
+                </ul>
+              </div>
+              <div class="team-container">
+                <div class="team-slider-header text-center">Our Nurse Case Managers</div>
+                <ul class="nurses">
+                  <li>
+                    <div class="hexagonal">
+                      <img src="./assets/images/user.png" alt="">
+                    </div>
+                    <div class="nurse-name text-center">Vergel Gutana, RN</div>
+                  </li>
+                  <li>
+                    <div class="hexagonal">
+                      <img src="./assets/images/user.png" alt="">
+                    </div>
+                    <div class="nurse-name text-center">Jomar Anthony Duhig, RN</div>
+                  </li>
+                  <li>
+                    <div class="hexagonal">
+                      <img src="./assets/images/user.png" alt="">
+                    </div>
+                    <div class="nurse-name text-center">Milagros Nuez, RN, MAN</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="our-press" class="container py-5">
+      <h2 class="text-center">Our Press</h2>
+      <div class="row">
+        <div class="col-sm-4">
+            <div class="blog-container rounded-4">
+              <div class="rounded-4 blog-image" style="background: url('./assets/images/about-us/2 About Us - 4 Our Press A PhilStar.png')"></div>
+              <div class="blog-content px-4">
+                <div class="blog-date">January 6, 2022</div>
+                <div class="blog-title">The Philippine Star: These medical facilities offer private nursing services for at-home patients</div>
+                <div class="blog-excerpt">“A lot of hospitals and clinics, especially those located within Metro Manila, are quickly getting filled up with patients following the steep rise of COVID-19 cases in the Philippines after the holiday season…Unfortunately, not everyone knows how to take care of the sick at home since they lack the equipment or skills to do so. Thankfully, these establishments offer private nursing services within the comforts of your own home.”</div>
+                <a href="#">Read More</a>
+              </div>
+            </div>            
+        </div>
+        <div class="col-sm-4">
+          <div class="blog-container rounded-4">
+            <div class="rounded-4 blog-image" style="background: url('./assets/images/about-us/2\ About\ Us\ -\ 4\ Our\ Press\ B\ Manila\ Bulletin.jpg')"></div>
+            <div class="blog-content px-4">
+              <div class="blog-date">October 28, 2021</div>
+              <div class="blog-title">Manila Bulletin: The Medical City: Bringing healthcare into the future</div>
+              <div class="blog-excerpt">“We have partners here,” Jose Xavier “Eckie” B. Gonzales, chairman of TMC, explains to the Manila Bulletin. “There’s ActivCare, which is oriented toward hospice, if you’re very sick but you don’t want to stay in the hospital over time because you want to be with your family…”</div>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="blog-container rounded-4">
+            <div class="rounded-4 blog-image" style="background: url('./assets/images/about-us/2\ About\ Us\ -\ 4\ Our\ Press\ C\ ABS\ Eng.jpg')"></div>
+            <div class="blog-content px-4">
+              <div class="blog-date">April 23, 2021</div>
+              <div class="blog-title">ABS-CBN NEWS: Home care for COVID-19 patients harder amid rising demand, lack of health workers</div>
+              <div class="blog-excerpt">“Caring for a COVID-19 patient at home is a challenging and a daunting endeavor. While there is a demand for the service, there is a lack of health workers. Despite this, however, health workers remain committed.</div>
+              <a href="">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4">
+            <div class="footer-logo">
+              <img src="./assets/images/logos/aclogo-wht.png" alt="" width="250">
+            </div>
+            <h4>Social Media</h4>
+            <ul class="socmed-logos">
+              <li>
+                <img src="./assets/images/icons/facebook.svg" alt="" style="padding: 7px;">
+              </li>
+              <li>
+                <img src="./assets/images/icons/viber.svg" alt="" style="padding: 5px;">
+              </li>
+              <li>
+                <img src="./assets/images/icons/messenger.svg" alt="" style="padding: 6px;">
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-5 col-md-8">
+            <h4>Contact Details</h4>
+            <div class="address">#3 Santa Rosa Street Kapitolyo 1603 Pasig, Philippines</div>
+            <div class="landline">Landline: (02) 7759-8307</div>
+            <div class="mobile">Mobile/Viber: +6332 8426 5722, +63917 569 1755<br>from 9AM to 6PM</div>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h4>Services</h4>
+            <a href="">Home Health Services</a>
+            <a href="">Virtual Health Services</a>
+            <a href="">Packages</a>
+            <a href="">COVID Packages</a>
+            <a href="">Other Services</a>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h4>Quick Links</h4>
+            <a href="">About Us</a>
+            <a href="">Our Programs</a>
+            <a href="">FAQs</a>
+            <a href="">Inquire Now</a>
+          </div>
+        </div>
+        <hr>
+        <div class="row full">
+          <div class="col-md-12">
+            <div class="copyright">
+              Copyright ActivCare Home Health Solutions Inc.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="./vendors/slick-1.8.1/slick/slick.min.js"></script> 
+  <script>
+    $(document).ready(function(){
+      $('.what-do-we-do-slider').slick({
+        autoplay: true,
+        dots: true,
+        dotsClass: 'carousel-dots',
+        arrows: false,        
+      });
+      $('.our-team-slider').slick({
+        // autoplay: true,
+        dots: true,
+        dotsClass: 'carousel-dots',
+        // arrows: false,        
+      });
+    });
+  </script>
+  </body>
+</html>
+
