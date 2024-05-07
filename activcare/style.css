@@ -353,28 +353,32 @@ footer {
 
 button.slick-prev.slick-arrow {
     background: url(./assets/images/icons/arrow-right.svg);
+    background-color: #FFFFFF;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40px;
     border: none;
-    height: 40px;
+    border-radius: 50%;
+    height: 30px;
     left: 0;
     position: absolute;
     transform: rotate(180deg);
-    width: 40px;
+    width: 30px;
     z-index: 1;
 }
 
 button.slick-next.slick-arrow {
     background: url(./assets/images/icons/arrow-right.svg);
+    background-color: #FFFFFF;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40px;
     border: none;
-    height: 40px;
+    border-radius: 50%;
+    height: 30px;
     position: absolute;
     right: 0;
-    width: 40px;
+    width: 30px;
 }
 
 .carousel-dots {
@@ -623,7 +627,7 @@ li:nth-child(even) .hexagonal img {
     mask-image: url('./assets/images/icons/hexagonal.svg');
     mask-size: 100%;
     position: relative;
-    top: 10px;
+    top: 0px;
     width: 140px;
     -webkit-mask-box-image: url('./assets/images/icons/hexagonal.svg');
 }
@@ -635,7 +639,7 @@ li:nth-child(odd) .hexagonal img {
     mask-size: 100%;
     position: relative;
     text-align: center;
-    top: 0px;
+    top: 10px;
     width: 140px;
     -webkit-mask-box-image: url('./assets/images/icons/hexagonal.svg');
 }
@@ -950,13 +954,18 @@ label {
     }
     .partners-images,
     .partners-images img {
-        width: 100%;
+        width: 88%;
     }
     .testimonial-container {
+        min-height: 785px;
         padding-left: 15px!important;
         padding-right: 15px!important;
     }
     /* About Us */
+    #what-do-we-do .rounded-4 {
+        padding: 50px 20px!important;
+        right: 0;
+    }
     .doctors, 
     .nurses {
         flex-direction: column;
@@ -969,6 +978,9 @@ label {
     .hexagonal img {
         height: 100px;
         width: 100px;
+    }
+    .slider-container {
+        min-height: 400px;
     }
     /* Programs */
     .programs-list {
