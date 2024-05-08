@@ -915,10 +915,6 @@ label {
     text-decoration: none;
 }
 
-#services .row.justify-content-center {
-    margin-top: 80px;
-}
-
 #services .col-md-6.col-sm-12,
 .bg-blue .col-md-6.col-sm-12 {
     margin-bottom: 25px;
