@@ -755,8 +755,19 @@ section.container-xxl .col-md-6 {
     position: relative;
 }
 
+.section-title {
+    color: #8eb61f;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
 .reverse {
     flex-direction: row-reverse;
+}
+
+.reverse .section-title,
+.reverse p {
+    color: #FFFFFF;
 }
 
 #our-press,
@@ -986,7 +997,7 @@ label {
 
 .bg-blue .package-title,
 .bg-blue .subtitle,
-.white {
+.services .white {
     color: #FFFFFF;
 }
 
@@ -995,7 +1006,7 @@ label {
     background-color: #FFFFFF;
 }
 
-.blue {
+.services .blue {
     color: #0b649e;
 }
 
