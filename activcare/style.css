@@ -916,8 +916,24 @@ label {
 }
 
 #services .col-md-6.col-sm-12,
-.bg-blue .col-md-6.col-sm-12 {
+.bg-blue .col-md-6.col-sm-12,
+.bg-white .col-md-6.col-sm-12 {
     margin-bottom: 25px;
+}
+
+.check {
+    padding-left: 0
+}
+
+#services .col-md-6.col-sm-12 .check li,
+.bg-blue .col-md-6.col-sm-12 .check li,
+.bg-white .col-md-6.col-sm-12 .check li {
+    background: url(./assets/images/icons/check.svg);    
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 12px;    
+    display: block;
+    padding-left: 25px;
 }
 
 .service-image {
@@ -935,7 +951,8 @@ label {
 }
 
 #services a.btn.btn-green.rounded-pill.px-4,
-.bg-blue a.btn.btn-green.rounded-pill.px-4 {
+.bg-blue a.btn.btn-green.rounded-pill.px-4,
+.bg-white a.btn.btn-green.rounded-pill.px-4 {
     transform: translate(420px, 0px);
 }
 
@@ -1092,7 +1109,8 @@ label {
         width: 100%; 
     }
     #services a.btn.btn-green.rounded-pill.px-4,
-    .bg-blue a.btn.btn-green.rounded-pill.px-4 {
+    .bg-blue a.btn.btn-green.rounded-pill.px-4,
+    .bg-white a.btn.btn-green.rounded-pill.px-4 {
         transform: translate(120px, 0px);
     }
 }
