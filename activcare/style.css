@@ -1088,6 +1088,9 @@ label {
         transform: unset;
     }
     /* Services */
+    #services .nav .nav-item {
+        width: 100%; 
+    }
     #services a.btn.btn-green.rounded-pill.px-4 {
         transform: translate(120px, 0px);
     }
