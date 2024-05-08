@@ -1091,7 +1091,8 @@ label {
     #services .nav .nav-item {
         width: 100%; 
     }
-    #services a.btn.btn-green.rounded-pill.px-4 {
+    #services a.btn.btn-green.rounded-pill.px-4,
+    .bg-blue a.btn.btn-green.rounded-pill.px-4 {
         transform: translate(120px, 0px);
     }
 }
