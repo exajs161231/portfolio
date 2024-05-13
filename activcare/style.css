@@ -649,6 +649,7 @@ li:nth-child(odd) .hexagonal img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 
 .programs-list,
