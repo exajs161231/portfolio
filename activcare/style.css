@@ -113,20 +113,7 @@ footer {
 }
 
 #landing {
-    background: url("./assets/images/1\ Landing\ -\ 1\ Header\ updated.jpg");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 75vh;
-}
-
-.overlay {
-    background-color: #005dff33;
-    display: block;
-    height: inherit;
-    position: absolute; 
-    width: 100%;
-    z-index: 4;
+    background: none;
 }
 
 #landing .container {
