@@ -131,8 +131,6 @@ footer {
 
 #landing .container {
     height: inherit;
-    position: relative;
-    z-index: 5;
 }
 
 #landing .row,
