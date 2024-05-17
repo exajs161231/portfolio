@@ -133,6 +133,15 @@ footer {
     height: inherit;
 }
 
+.banner video {
+    left: 0;
+    height: 75vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
 #landing .row,
 #what-do-we-do .row,
 #our-team .container,
