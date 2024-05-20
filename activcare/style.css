@@ -52,6 +52,7 @@ h1 {
     color: #fcfdfb;
     font-size: 60px;
     margin-top: 30px;
+    text-shadow: 1px 1px 4px #000;
 }
 
 h2 {
@@ -114,22 +115,36 @@ footer {
 
 #landing {
     background: none;
+    height: 475px;
 }
 
-#landing .container {
+#landing .container-xxl,
+#landing .row,
+#landing .banner {
     height: inherit;
 }
 
-.banner video {
+#landing .banner {
+    align-items: center;
+    display: inline-flex;
+    padding: 0;
+}
+
+#landing .banner video {
     left: 0;
-    height: 75vh;
     object-fit: cover;
     position: absolute;
-    top: 0;
     width: 100%;
 }
 
-#landing .row,
+.video-mobile {
+    display: none;
+} 
+
+#landing .banner .px-3 {
+    position: absolute;
+}
+
 #what-do-we-do .row,
 #our-team .container,
 #our-team .row {
@@ -183,13 +198,12 @@ footer {
 #about .rounded-4,
 #what-do-we-do .rounded-4 {
     background-color: #f5f9fd;
-    padding: 130px !important;
-    position: absolute;
-    right: 160px;
-    top: 0px;
+    padding: 130px;
+    position: relative;
+    right: 90px;
     z-index: 1;
-    padding-left: 140px !important;
-    padding-right: 70px !important;
+    padding-left: 140px;
+    padding-right: 70px;
 }
 
 #what-do-we-do .rounded-4 {
@@ -333,8 +347,8 @@ footer {
     display: flex !important;
     flex-direction: column;
     justify-content: space-around;
-    padding-left: 150px!important;
-    padding-right: 150px!important;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .quotation-marks svg {
@@ -1014,8 +1028,20 @@ label {
     color: #0b649e;
 }
 
+@media (max-width: 1397px) {
+    #landing {
+        height: 71vh;
+    }
+    #landing .banner .px-3 {
+        padding-left: 150px!important;
+    }
+}
+
 /* Tablet View */
 @media (max-width: 992px) {
+    br {
+        display: none;
+    }
     .navbar-collapse {
         background-color: #FFF;
         top: 69px;
@@ -1028,6 +1054,28 @@ label {
     .dropdown .dropdown-menu {
         border: none;
         display: block;
+    }
+    #landing .banner video {
+        height: inherit;
+    }
+    #landing .banner .px-3 {
+        padding-left: 50px!important;
+    }
+    .video-desktop {
+        display: none;
+    }
+    .video-mobile {
+        display: block;
+    }
+    #about .rounded-4 {
+        padding: 40px;
+        position: relative;
+        right: 0;
+    }
+    .testimonial-container {
+        min-height: 520px;
+        padding-left: 70px;
+        padding-right: 70px;
     }
     #contact {
         max-height: 850px;
@@ -1047,6 +1095,7 @@ label {
 @media only screen and (max-width: 576px) {
     h1 {
         font-size: 40px;
+        padding-right: 30px;
     }
     .page-title {
         text-align: center;
@@ -1061,10 +1110,10 @@ label {
     #landing {
         background-position: right -300px center;
         background-size: auto;
+        height: 75vh;
     }
-    #landing .col-md-12 {
-        padding-left: 25px;
-        padding-right: 25px;
+    #landing .banner .px-3 {
+        padding-left: 30px!important;
     }
     .banner-image {
         margin-left: -15px;
@@ -1072,7 +1121,7 @@ label {
     }
     #about .rounded-4 {
         margin-top: 25px;
-        padding: 15px !important;
+        padding: 45px !important;
         position: relative;
         right: unset;
     }
@@ -1087,8 +1136,15 @@ label {
     }
     /* About Us */
     #what-do-we-do .rounded-4 {
+        margin-top: 20px;
         padding: 50px 20px!important;
         right: 0;
+    }
+    #what-do-we-do .px-0 {
+        padding: 0 15px!important;
+    }
+    #core-values .col-md-6:nth-child(2) .rounded-4 {
+        margin-top: 10px;
     }
     .doctors, 
     .nurses {
@@ -1134,5 +1190,11 @@ label {
     .bg-blue a.btn.btn-green.rounded-pill.px-4,
     .bg-white a.btn.btn-green.rounded-pill.px-4 {
         transform: translate(120px, 0px);
+    }
+}
+
+@media (min-width: 1537px) {
+    #landing .banner video {
+        position: relative;
     }
 }

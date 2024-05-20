@@ -66,19 +66,19 @@
       </nav>
     </header>
     <section id="landing">
-      <div class="container">
+      <div class="container-xxl">
         <div class="row">
-          <div class="col-md-12 py-5">
-            <div class="banner">
-              <video autoplay muted loop>
-                <source src="./assets/videos/1080-DESK.mp4" type="video/mp4">
-                <source src="./assets/videos/1080-MOBILE.mp4" type="video/mp4">
-              </video>
-              <div>
-                <img class="banner-image" src="./assets/images/aclogo-rgb.png" alt="Logo" width="300px">
-                <h1>Your Trusted Home<br> Health Care Partner</h1>
-                <a class="btn btn-green py-2 px-5 rounded-pill" href="#">Book Now</a>
-              </div>
+          <div class="banner">
+            <video class="video-desktop" autoplay muted loop>
+              <source src="./assets/videos/1080-DESK.mp4" type="video/mp4">
+            </video>
+            <video class="video-mobile" autoplay muted loop>
+              <source src="./assets/videos/1080-MOBILE.mp4" type="video/mp4">
+            </video>            
+            <div class="px-3">
+              <img class="banner-image" src="./assets/images/aclogo-rgb.png" alt="Logo" width="300px">
+              <h1>Your Trusted Home<br> Health Care Partner</h1>
+              <a class="btn btn-green py-2 px-5 rounded-pill" href="#">Call Now</a>
             </div>
           </div>
         </div>
@@ -86,18 +86,18 @@
     </section>
     <section id="about" class="container-xxl my-5">
       <div class="row align-items-md-center justify-content-center">
-        <div class="col-lg-6 col-md-12 px-0">
+        <div class="col-lg-6 col-md-6 px-0">
           <div class="about-image">
             <img src="./assets/images/1 Landing - 2 What is ActivCare.jpg" alt="">
           </div>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6 col-md-6">
           <div class="rounded-4">
             <div>
               <h2>What is ActivCare?</h2>
               <p>ActivCare is a full-service healthcare company <br>that provides medical solutions for patients in the <br>comfort of their HOMES.</p>
               <p>Your health is our priority. We believe that <br>compassionate care is best given at home, the <br>primary touchpoint where ActivCare's promise <br>comes to life.</p>
-              <a href="#" class="btn btn-green py-2 px-5 rounded-pill">Read more <span class="arrow"></span></a>
+              <a href="./about.html" class="btn btn-green py-2 px-5 rounded-pill">Read more <span class="arrow"></span></a>
             </div>
           </div>
         </div>
@@ -309,6 +309,12 @@
               <li>
                 <img src="./assets/images/icons/messenger.svg" alt="" style="padding: 6px;">
               </li>
+              <li>
+                <img src="./assets/images/icons/tiktok.svg" alt="" style="padding: 6px;">
+              </li>
+              <li>
+                <img src="./assets/images/icons/youtube.svg" alt="" style="padding: 6px;">
+              </li>
             </ul>
           </div>
           <div class="col-lg-5 col-md-8">
@@ -360,6 +366,7 @@
       });
     });
   </script>
+  <script src="./assets/js/main.js"></script>
   </body>
 </html>
 
