@@ -1090,6 +1090,9 @@ label {
     .copyright {
         text-align: center;
     }
+    #core-values {
+        height: 100%;
+    }
 }
 /* Mobile View */
 @media only screen and (max-width: 576px) {
@@ -1098,6 +1101,8 @@ label {
         padding-right: 30px;
     }
     .page-title {
+        font-size: 35px;
+        padding-right: 0;
         text-align: center;
     }
     section {
