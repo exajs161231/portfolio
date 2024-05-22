@@ -114,7 +114,10 @@ footer {
 }
 
 #landing {
-    background: none;
+    background: url("./assets/images/LANDING\ IMAGE.jpg");
+    background-position: 0px -220px;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 475px;
 }
 
@@ -131,6 +134,7 @@ footer {
 }
 
 #landing .banner video {
+    height: inherit;
     left: 0;
     object-fit: cover;
     position: absolute;
@@ -628,6 +632,10 @@ button.accordion-button,
     top: 0px;
     width: 135px;
     -webkit-mask-box-image: url('./assets/images/icons/shape.svg');
+}
+
+#programs .hexagon img {
+    top: 7px;
 }
 
 li:nth-child(even) .hexagonal img {
@@ -1179,6 +1187,11 @@ label {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+    }
+    /* FAQs */
+    #faqs .text-center {
+        font-size: 30px;
+        line-height: 1.2;
     }
     /* Contact Us */
     #contact {
