@@ -347,7 +347,7 @@ footer {
 
 .testimonial-container {
     background: #f7fce5;
-    min-height: 425px;
+    min-height: 483px;
     display: flex !important;
     flex-direction: column;
     justify-content: space-around;
@@ -358,6 +358,10 @@ footer {
 .quotation-marks svg {
     height: 50px;
     width: 50px;
+}
+
+.testimonial-container p {
+    font-size: 22px;
 }
 
 .testimonial-author {
