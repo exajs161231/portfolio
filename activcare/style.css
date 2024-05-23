@@ -114,7 +114,7 @@ footer {
 }
 
 #landing {
-    background: url("./assets/images/LANDING\ IMAGE.jpg");
+    background: url("./assets/images/background.jpg");
     background-position: 0px -220px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1147,7 +1147,7 @@ label {
         width: 88%;
     }
     .testimonial-container {
-        min-height: 785px;
+        min-height: 1264px;
         padding-left: 15px!important;
         padding-right: 15px!important;
     }
