@@ -115,7 +115,7 @@ footer {
 
 #landing {
     background: url("./assets/images/background.jpg");
-    background-position: 0px -220px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 475px;
